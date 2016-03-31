@@ -1,5 +1,5 @@
 markdown: redcarpet
-name: BC Agile Guides Template
+name: Citizens @ the Centre
 exclude:
 - CONTRIBUTING.md
 - Gemfile
@@ -18,7 +18,7 @@ sass:
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: Province of British Columbia
+  name: BCGov
   url: https://www.gov.bc.ca
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
@@ -35,37 +35,29 @@ expand_nav: true
 navigation:
 - text: Introduction
   internal: true
-- text: Add a new page
-  url: add-a-new-page/
+- text: What Is It About?
+  url: catc_what/
   internal: true
-  children:
-  - text: Make a child page
-    url: make-a-child-page/
-    internal: true
-- text: Add images
-  url: add-images/
+- text: How Do We Put Citizens @ the Centre?
+  url: catc_how/
   internal: true
-- text: Update the config file
-  url: update-the-config-file/
+- text: What Does This Mean for the Public Service?
+  url: catc_meaning/
   internal: true
-  children:
-  - text: Understanding the `baseurl:` property
-    url: understanding-baseurl/
-    internal: true
-- text: GitHub setup
-  url: github-setup/
+- text: What Will You See Next?
+  url: catc_next/
   internal: true
-- text: Post your guide
-  url: post-your-guide/
+- text: How Was C@C Developed?
+  url: catc_howformed/
   internal: true
-- text: Advanced features
-  url: advanced-features/
+- text: About DMCTT
+  url: catc_about_dmctt/
   internal: true
 
 repos:
-- name: BC Guides Template
+- name: Citizens @ the Centre
   description: Main repository
-  url: https://github.com/bcgov/guides-template
+  url: https://github.com/bcgov/citizens-at-the-centre
 
 back_link:
   url: "https://guides.pathfinder.gov.bc.ca/"
